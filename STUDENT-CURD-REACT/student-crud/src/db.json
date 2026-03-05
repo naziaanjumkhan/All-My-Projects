@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Masira",
+      "place": "hyderabad",
+      "phone": "7896542"
+    },
+    {
+      "id": "2",
+      "name": "Nazia",
+      "place": "Russia",
+      "phone": "5678987689"
+    },
+    {
+      "id": "3",
+      "name": "Massy",
+      "place": "Mumbai",
+      "phone": "+44 908765437"
+    }
+  ]
+}

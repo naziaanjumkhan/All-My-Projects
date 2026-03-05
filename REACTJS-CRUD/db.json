@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Masira Khan",
+      "username": "masira",
+      "email": "masira@gmail.com",
+      "age": 31
+    },
+    {
+      "name": "Nazima Khan",
+      "username": "nazia",
+      "email": "nazia@gmail.com",
+      "age": 27,
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Nazia Khan",
+      "username": "nazia",
+      "email": "nazia@gmail.com",
+      "age": 23
+    },
+    {
+      "name": "Aqeeb khan",
+      "username": "aqeeb",
+      "email": "aqeeb@mailinator.com",
+      "age": 20,
+      "id": "4ba1"
+    },
+    {
+      "name": "Asif Khan",
+      "username": "asif",
+      "email": "asif@mailinator.com",
+      "age": 21,
+      "id": "1abe"
+    },
+    {
+      "id": "22c3",
+      "name": "Barbara Arnold",
+      "username": "xywolyzewi",
+      "email": "becazuwos@mailinator.com",
+      "age": 89
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+import MovieCard from "./MovieCard";
+
+const MovieList = ({ movies }) => {
+  if (movies === 0) {
+    return <p>No Movies Found.</p>;
+  }
+
+  return (
+    <div className="movie-list">
+      {movies.map((movie) => (
+        <MovieCard key={movie.imdbID} movie={movie} />
+      ))}
+    </div>
+  );
+};
+
+export default MovieList;

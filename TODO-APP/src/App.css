@@ -1,0 +1,104 @@
+/* Todo.css */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.main {
+  background: #fff;
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #6a5acd;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  background: #6a5acd;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #483d8b;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+li:hover {
+  transform: scale(1.02);
+  background: #f1f1f1;
+}
+
+li span {
+  font-size: 16px;
+  color: #333;
+}
+
+li span.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+li button {
+  background: #ff4d4d;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+li button:hover {
+  background: #cc0000;
+}

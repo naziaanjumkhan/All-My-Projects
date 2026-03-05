@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Base Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:rgb(243, 135, 200);
+    --secondary-color:rgba(221, 10, 168, 0.671);
+    --accent-color:pink;
+    --accent-dark-color:rgb(227, 48, 108);
+    --padding-primary:20px;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+
+h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    color:black;
+    /* line-height: 5%; */
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+/* utility class */
+.small-text{
+    font-size: 1rem;   
+    
+}
+.hover-link {
+    color: black;
+    transition: all .4s ease;
+}
+.hover-link:hover{
+    color: var(--secondary-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sec-btn{
+    border:1px solid var(--accent-dark-color);
+    padding: 12px 24px;
+    border-radius: 15px;
+    box-shadow: 0 0 2px var(--accent-dark-color);
+    transition: 0.2s ease-in-out;   
+}
+.sec-btn:hover{
+    border-color: var(--secondary-color);
+}
+
+.pri-btn{
+    background-color: var(--accent-dark-color);
+    padding: 10px 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 2px var(--accent-dark-color);
+    transition: all 0.4s ease;
+    color:black !important;
+    font-weight: 300px;
+}
+
+.pri-btn:hover{
+     border: 1px solid var(--accent-dark-color);
+     background-color: var(--accent-color);
+     color: black;
+}
+
+/* top-banner */
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-primary);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.top-banner{
+    width: 100%;
+    height: 45px;
+    background-color: var(--accent-dark-color);
+    background-image: url("images/banner.jpeg");
+    background-repeat: repeat;
+
+}
+
+.banner-text{
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+/* nav bar */
+
+.main-nav{
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.company-logo img{
+    width: 200px;
+}
+
+.nav-links {
+    flex-basis: 730px;
+}
+
+.nav-links ul{
+    justify-content: space-around;
+    gap: 40px;
+}
+
+
+/* Header Section */
+
+header{
+    padding: var(--padding-primary);
+}
+.header-section{
+   
+    justify-content: center;
+    gap: 60px;
+}
+.header-left{
+    max-width: 40vw;
+}
+.header-left h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: var(--accent-dark-color);
+    margin-top: 20px;
+}
+.header-section p{
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: black;
+     padding: 10px 10px;
+     margin-bottom: 20px;
+}
+.header-section img{
+    width: 600px;
+}
+
+/* company logos */
+.company-header{
+    text-align: center;
+    margin-block: 30px;
+    color: black;
+
+}
+.logos{
+    justify-content: space-between;
+}
+
+.logo{
+    height: 46px;
+}
+
+
+
+/* feature-section */
+
+.features-section{
+    padding: 90px 10px;
+    background-image: url(images/asset\ 34.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.feature-header{
+    text-align: center;
+    flex-direction: column;
+}
+.feature-header h2{
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    font-weight: 700px;
+}
+
+.features-area{
+    flex-wrap: wrap;
+    margin-top: 25px;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.features-card {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
+}
+.features-card img{
+    width: 60px;
+}
+
+/* big feature section */
+
+.big-features-section{
+    padding: 30px var(--padding-primary);
+}
+
+.big-feature-container{
+    gap: 30px;
+}
+
+.feature-description{
+    flex-direction: column;
+    align-items: center;
+}
+.feature-description h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--accent-dark-color);
+    margin-top: 20px;
+
+}
+
+.feature-description p{
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: black;
+     padding: 10px 10px;
+     /* margin-bottom: 20px; */
+}
+
+/* Example-Section */
+
+.example-header{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.example-card{
+    width: 23%;
+    position: relative;
+    min-height: 300px;
+    background: black;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(images/p7.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    transition: all 0.4s ease-in-out;
+}
+.example-card:hover{
+    box-shadow: 0 0 10px;
+}
+
+/* .example-card:nth-child(3){
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(images/p7.jpg);
+    background-size: cover;
+} */
+
+
+.card-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+}
+
+.example-area {
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+
+
+
+.cta-sec-container{
+    flex-direction: column;
+    gap: 30px;
+    color: black;
+    font-size: 1.4rem;
+    /* padding: 10px var(--padding-primary); */
+    /* margin-top: 70px; */
+    
+}
+.cta-section{
+    margin-top: 30px;
+    background-color: var(--accent-color);
+    padding: 120px var(--padding-primary);
+}
+
+/* Footer */
+
+footer{
+    padding-block: 50px;
+    background-color: #ebebeb;
+}
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-container{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.sub-footer{
+    background-color: var(--accent-color);
+    padding-block: var(--padding-primary); 
+}
+
+.subfooter-container{
+    justify-content: center;
+    gap: 30px;
+}

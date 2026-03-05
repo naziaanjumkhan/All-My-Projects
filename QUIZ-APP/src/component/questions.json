@@ -1,0 +1,17 @@
+[
+  {
+    "question": "what is css?",
+    "options": ["java", "c", "Cascade-stylesheet", "javaScript"],
+    "answer": "Cascade-stylesheet"
+  },
+  {
+    "question": "what is html?",
+    "options": ["kal", "aj", "parsu", "hyper text markup language"],
+    "answer": "hyper text markup language"
+  },
+  {
+    "question": "what is react",
+    "options": ["fine", "single page application", "hi", "oh"],
+    "answer": "single page application"
+  }
+]
